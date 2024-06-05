@@ -1,11 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        video {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            pointer-events: none;
+            z-index: -1;
+            transition: 1s;
+        }
+    </style>
 </head>
+
 <body>
+
+
+    <!-- video tags -->
+
+    <!-- <video src="./sololevelling.mp4" height="500px" autoplay loop muted> </video> -->
+
+
+    <!-- progress tag -->
+
+    <progress value="65" max="100">32%</progress> 32% Progress
+    <p>Lorem, &nbsp; &nbsp;&nbsp;dolor sit amet consectetur adipisicing elit. Aut neque ullam officia quidem quae
+        blanditiis inventore sed similique sapiente fugiat! Quo ea earum voluptas voluptatum a ipsum enim? Corrupti,
+        voluptates.</p>
+    <meter value="15" max="100" min="0"></meter>
+    <br><br>
+    <hr>
+
+    
+    <audio src="./sololevelling.mp4"  controls> </audio>
+
+
+    <hr>
+    <a href="www.google.com" target="_blank" ping="https://myapi.com">Google site </a><br><br>
+    <!-- direct mail/call on clicking on th mail/call me title -->
+
+    <a href="mailto:manojpisepatil@gmail.com">Mail Me !</a>
+    <a href="tel:7507780122">Contact me bro !</a>
+    <a href="bird.png" download> Download the image !</a>
+
+    <br><br><br>
+    <hr>
+    <hr><br>
+
+    <!-- input tag -->
+    <fieldset>
+        <legend>Personal Details</legend>
+        Enter Name 1 : <input type="text" autofocus placeholder="x y z" />
+        <br><br>
+        Enter Name 2 : <input type="text" autofocus placeholder="A B C" value="Manoj" readonly />
+        <br><br>
+        Enter email ID : <input type="email" required />
+
+
+
+
+        <input type="button" value="Button" />
+
+        <address>
+            <label for="village">address</label>
+        </address>
+        <textarea name="address"></textarea>
+
+    </fieldset>
+
+
+    <br> <br>
+
+    <input type="color" />
+    <br><br>
+    <input type="file" multiple />
+    <br><br>
+    <input style="color:green; " type="range" />
+
+
+    <br><br><br>
+    <hr>
+    <input list="browsers" placeholder="list of the items " />
+    <datalist id="browsers">
+        <option value="chrome"></option>
+        <option value="firefox"></option>
+    </datalist>
+
+
+    <br><br><br>
+
+    select cars
+    <select name="cars">
+        <option value="audi">audi</option>
+        <option value="bmw">bmw</option>
+    </select>
+
+
+    <br><br><hr><hr><hr>
+
+    <svg height="500px" 
+         width="500px">
+        <circle cx="50" 
+                cy="50" 
+                r="40" 
+                fill="red" 
+                stroke="green" 
+                stroke-width="10">
+
+        </circle>
+    </svg>
+    <br><br><br><hr><hr>
+
+    <a href="https://validator.w3.org/nu/#textarea">
+        For validation of HTML code
+    </a>
+
+    <br><br><hr><hr>
     
 </body>
+
 </html>
