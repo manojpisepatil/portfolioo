@@ -20,6 +20,6 @@
  
 
 ## CONTACT 👇 
-![Screenshot (222)](https://github.com/user-attachments/assets/6277de27-184d-4bca-9c48-0269d6fb68d5)
+
 ![Screenshot (223)](https://github.com/user-attachments/assets/7343277a-d279-4b65-8798-f809a4055c48)
 
