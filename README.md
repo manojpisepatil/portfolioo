@@ -5,16 +5,6 @@
 
 Discover my skills and accomplishments, and don't hesitate to connect with me via the integrated contact form. Let's embark on this journey together!
 
-## Star History
-
-<a href="https://star-history.com/#manojpisepatil/portfolioo&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Date" />
- </picture>
-</a>
-
 [![Star History Chart](https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Timeline&theme=dark)](https://star-history.com/#manojpisepatil/portfolioo)
 ---
 
