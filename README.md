@@ -14,7 +14,7 @@ Discover my skills and accomplishments, and don't hesitate to connect with me vi
 </a>
 
 ## Home
-![Home Screenshot](https://github.com/user-attachments/assets/32d5ecf2-e4ef-431a-9a04-146bc2e80546){ width: 200px; }
+![Home Screenshot](https://github.com/user-attachments/assets/32d5ecf2-e4ef-431a-9a04-146bc2e80546){height=400px width=500px}
 
 ---
 
