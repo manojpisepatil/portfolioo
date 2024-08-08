@@ -5,6 +5,8 @@
 
 Discover my skills and accomplishments, and don't hesitate to connect with me via the integrated contact form. Let's embark on this journey together!
 
+![Github Activity Graph](https://activity-graph.herokuapp.com/graph?username=codemaker2015&theme=xcode)
+
 ---
 
 ## Home
