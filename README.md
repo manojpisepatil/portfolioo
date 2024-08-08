@@ -14,7 +14,8 @@ Discover my skills and accomplishments, and don't hesitate to connect with me vi
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Date" />
  </picture>
 </a>
-[![Star History Chart](https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Timeline)](https://star-history.com/#manojpisepatil/portfolioo)
+
+<!-- [![Star History Chart](https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Timeline)](https://star-history.com/#manojpisepatil/portfolioo)-->
 ---
 
 ## Home
