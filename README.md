@@ -16,11 +16,8 @@ Discover my skills and accomplishments, and don't hesitate to connect with me vi
 ## Home
 <img src="https://github.com/user-attachments/assets/32d5ecf2-e4ef-431a-9a04-146bc2e80546" alt="Home Screenshot" width="500" height="300">
 
-
----
-
 ## About
-![About Screenshot](https://github.com/user-attachments/assets/b4ddc69f-79f3-459e-b89b-fca74fde1f5d)
+<img src="https://github.com/user-attachments/assets/b4ddc69f-79f3-459e-b89b-fca74fde1f5d" alt="Home Screenshot" width="500" height="300">
 
 ---
 
