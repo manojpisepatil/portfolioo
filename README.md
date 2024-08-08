@@ -6,6 +6,7 @@
 Discover my skills and accomplishments, and don't hesitate to connect with me via the integrated contact form. Let's embark on this journey together!
 
 
+[![Star History Chart](https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Timeline)](https://star-history.com/#manojpisepatil/portfolioo)
 ---
 
 ## Home
