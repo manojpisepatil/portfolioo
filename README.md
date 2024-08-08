@@ -16,27 +16,27 @@ Discover my skills and accomplishments, and don't hesitate to connect with me vi
   <tr>
     <td align="center">
       <strong>Home</strong><br>
-      <img src="https://github.com/user-attachments/assets/32d5ecf2-e4ef-431a-9a04-146bc2e80546" alt="Home Screenshot" width="300">
+      <img src="https://github.com/user-attachments/assets/32d5ecf2-e4ef-431a-9a04-146bc2e80546" alt="Home Screenshot" width="600">
     </td>
     <td align="center">
       <strong>About</strong><br>
-      <img src="https://github.com/user-attachments/assets/b4ddc69f-79f3-459e-b89b-fca74fde1f5d" alt="About Screenshot" width="300">
+      <img src="https://github.com/user-attachments/assets/b4ddc69f-79f3-459e-b89b-fca74fde1f5d" alt="About Screenshot" width="600">
     </td>
   </tr>
   <tr>
     <td align="center">
       <strong>Resume</strong><br>
-      <img src="https://github.com/user-attachments/assets/9e72892d-92ee-43fc-9178-647450f83b5e" alt="Resume Screenshot" width="300">
+      <img src="https://github.com/user-attachments/assets/9e72892d-92ee-43fc-9178-647450f83b5e" alt="Resume Screenshot" width="600">
     </td>
     <td align="center">
       <strong>Portfolio</strong><br>
-      <img src="https://github.com/user-attachments/assets/7cf2e614-48df-491f-942d-a8beb4bf8d0c" alt="Portfolio Screenshot" width="300">
+      <img src="https://github.com/user-attachments/assets/7cf2e614-48df-491f-942d-a8beb4bf8d0c" alt="Portfolio Screenshot" width="600">
     </td>
   </tr>
   <tr>
     <td align="center" colspan="2">
       <strong>Contact</strong><br>
-      <img src="https://github.com/user-attachments/assets/7343277a-d279-4b65-8798-f809a4055c48" alt="Contact Screenshot" width="300">
+      <img src="https://github.com/user-attachments/assets/7343277a-d279-4b65-8798-f809a4055c48" alt="Contact Screenshot" width="600">
     </td>
   </tr>
 </table>
