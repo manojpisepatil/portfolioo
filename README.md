@@ -9,10 +9,9 @@ Discover my skills and accomplishments, and don't hesitate to connect with me vi
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Date" />
+<!--    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Date" /> -->
  </picture>
 </a>
----
 
 ## Home
 ![Home Screenshot](https://github.com/user-attachments/assets/32d5ecf2-e4ef-431a-9a04-146bc2e80546)
