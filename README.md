@@ -14,7 +14,8 @@ Discover my skills and accomplishments, and don't hesitate to connect with me vi
 </a>
 
 ## Home
-![Home Screenshot](https://github.com/user-attachments/assets/32d5ecf2-e4ef-431a-9a04-146bc2e80546=100x20)
+<img src="https://github.com/user-attachments/assets/32d5ecf2-e4ef-431a-9a04-146bc2e80546" alt="Home Screenshot" width="500" height="300">
+
 
 ---
 
