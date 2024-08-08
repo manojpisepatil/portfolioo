@@ -15,7 +15,7 @@ Discover my skills and accomplishments, and don't hesitate to connect with me vi
  </picture>
 </a>
 
-<!-- [![Star History Chart](https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Timeline)](https://star-history.com/#manojpisepatil/portfolioo)-->
+[![Star History Chart](https://api.star-history.com/svg?repos=manojpisepatil/portfolioo&type=Timeline&theme=dark)](https://star-history.com/#manojpisepatil/portfolioo)
 ---
 
 ## Home
