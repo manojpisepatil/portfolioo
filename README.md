@@ -1,5 +1,5 @@
 
-# Welcome to My Dynamic Portfolio
+# Welcome to My Desktop Portfolio
 
 **A vibrant display of my path as a Computer Engineer. Immerse yourself in my world of projects, certifications, and experiences, all presented through an interactive interface with captivating videos and sleek design.**
 
