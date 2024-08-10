@@ -7,22 +7,67 @@
     <title>PortFolioo</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./img/favicon.png">
-</head>
 
 <body>
-    <!-- required javascript -->
-    <!-- <video src="./video/jjk.mp4" height="500px" autoplay loop muted> </video> -->
-    <!-- <video src="./video/sukuna.mp4" height="500px" id="v1" autoplay loop muted> </video>   -->
-    <video src="./video/gojo.mp4" height="500px" id="v1" autoplay loop muted> </video>
-    <!-- <video src="./video/sololevelling.mp4" height="500px" id="v1" autoplay loop muted> </video> -->
+    <script src="script.js"></script>
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="slideshow-container">
+
+
+        <div class="mySlides " style="background-color: black;">
+            <div class="sodo"></div>
+        </div>
+
+        <div class="mySlides ">
+            <video src="./video/sololevelling.mp4" height="500px" autoplay loop muted></video>
+        </div>
+        
+
+        <div class="mySlides ">
+            <video src="./video/uchiha.mp4" height="500px" autoplay loop muted> </video>
+        </div>
+
+        
+        <div class="mySlides ">
+            <video src="./video/jjk.mp4" height="500px" autoplay loop muted> </video>
+        </div>
+
+
+        <div class="mySlides ">
+            <video src="./video/domain.mp4" height="500px" autoplay loop muted> </video>
+        </div>
+
+
+        <div class="mySlides ">
+            <video src="./video/sukuna1.mp4" height="500px" autoplay loop muted> </video>
+        </div>
+
+                
+        <div class="mySlides ">
+            <video src="./video/sukuna.mp4" height="500px" autoplay loop muted> </video>
+        </div>
+
+
+        <div class="mySlides ">
+            <video src="./video/gojo.mp4" height="500px" autoplay loop muted> </video>
+        </div>
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#8594;</a>
+        <a class="next" onclick="plusSlides(1)">&#8592;</a>
+
+    </div>
+
+
+
+    <!-- ----------------------------------------------------------------------- -->
+
     <main id="main">
         <div class="fix2"></div>
         <div id="fix">
             <div class="phuto">
-                <img src="./img/mj.png" alt="error 404" height="140px" type="image/png" style="border-radius: 18px;
-                       background-color:brown;
-                       margin:10px;     
-                       box-shadow: 1px 1px  20px rgba(237, 237, 237, 0.653);">
+                <img src="./img/mj.png" alt="error 404" height="140px" type="image/png" class="error">
                 <h1 class="nam">Manoj Pise</h1>
                 <h2 class="computer">Computer Engineer</h2>
             </div>
@@ -30,13 +75,15 @@
             <div class="info">
                 <nav class="navbar">
                     <div class="container">
+                        
                         <ul class="contain">
-                            <li class="niv"><a href="#home1">Home</a></li><br>
-                            <li class="niv"><a href="#about1">About</a></li><br>
-                            <li class="niv"><a href="#resume1">Resume</a></li><br>
-                            <li class="niv"><a href="#certification1">Portfolio</a></li><br>
-                            <li class="niv"><a href="#contact1">Contact</a></li><br>
+                            <li class="niv1"><a href="#home1">Home</a></li><br>
+                            <li class="niv2"><a href="#about1">About</a></li><br>
+                            <li class="niv3"><a href="#resume1">Resume</a></li><br>
+                            <li class="niv4"><a href="#certification1">Portfolio</a></li><br>
+                            <li class="niv5"><a href="#contact1">Contact</a></li><br>
                         </ul>
+
                         <div class="buttonss">
                             <ul>
                                 <li class="tab"><a href="https://www.instagram.com/manojpisepatil" target="_blank"><img
@@ -199,34 +246,66 @@
                     <div class="acjw">
                         <div class="alll">
                             <div style="display:flex;">
-                                <div class="z1"><a href="https://lnkd.in/drWbEbMx" target="_blank"><img src="./certification/aws.jpeg" ></a></div>
-                                <div class="z2"><a href="https://drive.google.com/file/d/1n3j4yQzZ4j0fNMx898JMwd77h4SuLZlC/view?usp=sharing" target="_blank"><img src="./certification/course.png" ></a></div>
-                                <div class="z3"><a href="https://olympus1.mygreatlearning.com/course_certificate/QXYGTMDA" target="_blank"><img src="./certification/cpp.jpeg" ></a></div>
+                                <div class="z1"><a href="https://lnkd.in/drWbEbMx" target="_blank"><img
+                                            src="./certification/aws.jpeg"></a></div>
+                                <div class="z2"><a
+                                        href="https://drive.google.com/file/d/1n3j4yQzZ4j0fNMx898JMwd77h4SuLZlC/view?usp=sharing"
+                                        target="_blank"><img src="./certification/course.png"></a></div>
+                                <div class="z3"><a
+                                        href="https://olympus1.mygreatlearning.com/course_certificate/QXYGTMDA"
+                                        target="_blank"><img src="./certification/cpp.jpeg"></a></div>
                             </div>
                             <div style="display:flex;">
-                                <div class="z1"><a href="https://drive.google.com/file/d/1XJhA3qcgXZLmk754mTP9niOo31MiLy3E/view?usp=sharing" target="_blank"><img src="./certification/edunet.png" ></a></div>
-                                <div class="z2"><a href="https://olympus1.mygreatlearning.com/course_certificate/DOXJPXVB" target="_blank"><img src="./certification/html.jpg" ></a></div>
-                                <div class="z3"><a href="https://drive.google.com/file/d/141vTaqhAkdk_f5ZxqnIxXdJAjaM5Cl-e/view?usp=sharing" target="_blank"><img src="./certification/internship.png" ></a></div>
+                                <div class="z1"><a
+                                        href="https://drive.google.com/file/d/1XJhA3qcgXZLmk754mTP9niOo31MiLy3E/view?usp=sharing"
+                                        target="_blank"><img src="./certification/edunet.png"></a></div>
+                                <div class="z2"><a
+                                        href="https://olympus1.mygreatlearning.com/course_certificate/DOXJPXVB"
+                                        target="_blank"><img src="./certification/html.jpg"></a></div>
+                                <div class="z3"><a
+                                        href="https://drive.google.com/file/d/141vTaqhAkdk_f5ZxqnIxXdJAjaM5Cl-e/view?usp=sharing"
+                                        target="_blank"><img src="./certification/internship.png"></a></div>
                             </div>
                             <div style="display:flex;">
-                                <div class="z1"><a href="https://drive.google.com/file/d/1NuExIypij1OmKqJQ0eXaop14erdQJMrw/view?usp=sharing" target="_blank"><img src="./certification/java.jpg" ></a></div>
-                                <div class="z2"><a href="http://ude.my/UC-3f7d6c2a-907b-424a-9a7b-fb6e2d3269d8" target="_blank"><img src="./certification/javascript.jpg" ></a></div>
-                                <div class="z3"><a href="https://lnkd.in/dzjqBWpC" target="_blank"><img src="./certification/L-java.jpg" ></a></div>
+                                <div class="z1"><a
+                                        href="https://drive.google.com/file/d/1NuExIypij1OmKqJQ0eXaop14erdQJMrw/view?usp=sharing"
+                                        target="_blank"><img src="./certification/java.jpg"></a></div>
+                                <div class="z2"><a href="http://ude.my/UC-3f7d6c2a-907b-424a-9a7b-fb6e2d3269d8"
+                                        target="_blank"><img src="./certification/javascript.jpg"></a></div>
+                                <div class="z3"><a href="https://lnkd.in/dzjqBWpC" target="_blank"><img
+                                            src="./certification/L-java.jpg"></a></div>
                             </div>
                             <div style="display:flex;">
-                                <div class="z1"><a href="https://drive.google.com/file/d/1bQYJnx5J2UkEIim7tfpDIbo0NLGOU0S9/view?usp=sharing" target="_blank"><img src="./certification/M1.png" ></a></div>
-                                <div class="z2"><a href="https://drive.google.com/file/d/14mA1VULe5n_DPfffHPNNUV29SksCvB-B/view?usp=sharing" target="_blank"><img src="./certification/m2.png" ></a></div>
-                                <div class="z3"><a href="https://proceeding.conferenceworld.in/ICIET-2022/45.pdf" target="_blank"><img src="./certification/m3.png" ></a></div>
+                                <div class="z1"><a
+                                        href="https://drive.google.com/file/d/1bQYJnx5J2UkEIim7tfpDIbo0NLGOU0S9/view?usp=sharing"
+                                        target="_blank"><img src="./certification/M1.png"></a></div>
+                                <div class="z2"><a
+                                        href="https://drive.google.com/file/d/14mA1VULe5n_DPfffHPNNUV29SksCvB-B/view?usp=sharing"
+                                        target="_blank"><img src="./certification/m2.png"></a></div>
+                                <div class="z3"><a href="https://proceeding.conferenceworld.in/ICIET-2022/45.pdf"
+                                        target="_blank"><img src="./certification/m3.png"></a></div>
                             </div>
                             <div style="display:flex;">
-                                <div class="z1"><a href="https://www.sololearn.com/certificates/CT-5X7XN1W1" target="_blank"><img src="./certification/python.jpg" ></a></div>
-                                <div class="z2"><a href="https://verify.ifacet.digitalcredentials.in/44752b7e-0bad-4a6c-b998-9a840f856801" target="_blank"><img src="./certification/sql.jpg" ></a></div>
-                                <div class="z3"><a href="https://drive.google.com/file/d/1XwFdjOBHfPzzxWIQUMT6tKkRUl4WnJZm/view?usp=sharing" target="_blank"><img src="./certification/vois.png" ></a></div>
+                                <div class="z1"><a href="https://www.sololearn.com/certificates/CT-5X7XN1W1"
+                                        target="_blank"><img src="./certification/python.jpg"></a></div>
+                                <div class="z2"><a
+                                        href="https://verify.ifacet.digitalcredentials.in/44752b7e-0bad-4a6c-b998-9a840f856801"
+                                        target="_blank"><img src="./certification/sql.jpg"></a></div>
+                                <div class="z3"><a
+                                        href="https://drive.google.com/file/d/1XwFdjOBHfPzzxWIQUMT6tKkRUl4WnJZm/view?usp=sharing"
+                                        target="_blank"><img src="./certification/vois.png"></a></div>
                             </div>
                             <div style="display:flex;">
-                                <div class="z1"><a href="https://verify.ifacet.digitalcredentials.in/3d19d161-5a7e-4914-8eaf-5c2eac858dfe" target="_blank"><img src="./certification/wordpress-web-designing.jpg" ></a></div>
-                                <div class="z2"><a href="https://verify.ifacet.digitalcredentials.in/165d6029-a416-4a98-816c-a214162a54cd" target="_blank"><img src="./certification/PYTHOON.png" ></a></div>
-                                <div class="z3"><a href="https://verify.ifacet.digitalcredentials.in/a4b18c6f-cc8b-4726-975b-1b3dca0c1162" target="_blank"><img src="./certification/RDBMS.png" ></a></div>
+                                <div class="z1"><a
+                                        href="https://verify.ifacet.digitalcredentials.in/3d19d161-5a7e-4914-8eaf-5c2eac858dfe"
+                                        target="_blank"><img src="./certification/wordpress-web-designing.jpg"></a>
+                                </div>
+                                <div class="z2"><a
+                                        href="https://verify.ifacet.digitalcredentials.in/165d6029-a416-4a98-816c-a214162a54cd"
+                                        target="_blank"><img src="./certification/PYTHOON.png"></a></div>
+                                <div class="z3"><a
+                                        href="https://verify.ifacet.digitalcredentials.in/a4b18c6f-cc8b-4726-975b-1b3dca0c1162"
+                                        target="_blank"><img src="./certification/RDBMS.png"></a></div>
                             </div>
                         </div>
                     </div>
@@ -249,7 +328,7 @@
                             <input type="text" name="name" placeholder="Full Name" required><br>
                             <input type="email" name="email" placeholder="Email" required>
                         </form>
-                        <div class="formm1" >
+                        <div class="formm1">
                             <textarea name="message" placeholder="Message" required></textarea>
                         </div>
                         <div class="formm2">
