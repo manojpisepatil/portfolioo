@@ -18,11 +18,11 @@
     </script> -->
 
 
-<!-- ----------------------------------------------------------------------- -->
+    <!-- ----------------------------------------------------------------------- -->
 
-   
 
-        <!-- <div class="slideshow-container">
+
+    <!-- <div class="slideshow-container">
 
 
             <div class="mySlides " style="background-color: black;">
@@ -51,11 +51,37 @@
             <a class="next" onclick="plusSlides(1)">&#8592;</a>
 
         </div> -->
-  
-        <!-- ----------------------------------------------------------------------- -->
-        <main id="main">
 
-        <div class="fix2"></div>
+    <!-- ----------------------------------------------------------------------- -->
+    <main id="main">
+
+        <div class="fix2">
+
+            <!-- -------------------------------------------------------------------- -->
+
+            <section>
+                <video id="slider" autoplay loop muted>
+
+                </video>
+                <ul class="navigation">
+                    <div>
+                        <li><img onclick="videoUrl('unknown')" src="./background/DARK.png" height="50px; width:auto;"
+                                alt=""></li>
+                        <li><img onclick="videoUrl('./video/sololevelling.mp4')" src="./background/solo.png"
+                                height="50px; width:auto;" alt=""></li>
+                        <li><img onclick="videoUrl('./video/jjk.mp4')" src="./background/jjk.png"
+                                height="50px; width:auto;" alt=""></li>
+                        <li><img onclick="videoUrl('./video/sukuna1.mp4')" src="./background/sukuna.png"
+                                height="50px; width:auto;" alt=""></li>
+                        <li><img onclick="videoUrl('./video/gojo.mp4')" src="./background/gojo.png"
+                                height="50px; width:auto;" alt=""></li>
+                    </div>
+                </ul>
+            </section>
+
+            <!-- -------------------------------------------------------------------- -->
+
+        </div>
         <div id="fix">
             <div class="phuto">
                 <img src="./img/mj.png" alt="error 404" height="140px" type="image/png" class="error">
@@ -173,7 +199,7 @@
                         <div>
                             <h1>Resume</h1>
                             <div class="dwn">
-                                <a href="./resume/Resume(manoj-pise).pdf" download="My-Resume"><img
+                                <a href="./resume/RESUME.pdf" download="My-Resume"><img
                                         src="./img/resume.png" height="50px;" alt="resume" type="image/png"></a>
                             </div>
                         </div>
@@ -333,26 +359,7 @@
         </div>
 
     </main>
-    
-    <!-- -------------------------------------------------------------------- -->
 
-    <section>
-        <video id="slider"  style="background-color: black;" autoplay loop muted>
-
-        </video>
-        <ul class="navigation">
-            <div>
-            <li><img onclick="videoUrl('unknown')" src="./background/DARK.png" height="50px; width:auto;" alt=""></li>
-            <li><img onclick="videoUrl('./video/sololevelling.mp4')" src="./background/solo.png"  height="50px; width:auto;" alt=""></li>
-            <li><img onclick="videoUrl('./video/jjk.mp4')" src="./background/jjk.png"  height="50px; width:auto;" alt=""></li>
-            <li><img onclick="videoUrl('./video/sukuna1.mp4')" src="./background/sukuna.png"  height="50px; width:auto;" alt=""></li>
-            <li><img onclick="videoUrl('./video/gojo.mp4')" src="./background/gojo.png"  height="50px; width:auto;" alt=""></li>
-        </div>
-        </ul>
-    </section>
-
-<!-- -------------------------------------------------------------------- -->
-  
     <script>
         function videoUrl(url) {
             document.getElementById("slider").src = url;
