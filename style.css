@@ -1625,10 +1625,14 @@ video {
     scale:1.5;
     color:white;
 }
+
 * {
     scroll-behavior: smooth;
     behavior: sticky;
 }
 
 
+* {
+    scroll-behavior: smooth;
+}
 
