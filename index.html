@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,61 +9,52 @@
     <link rel="icon" href="./img/favicon.png">
 
 <body>
-    <script src="script.js"></script>
-    <!-- ----------------------------------------------------------------------- -->
-
-    <div class="slideshow-container">
 
 
-        <div class="mySlides " style="background-color: black;">
-            <div class="sodo"></div>
-        </div>
-
-        <div class="mySlides ">
-            <video src="./video/sololevelling.mp4" height="500px" autoplay loop muted></video>
-        </div>
-        
-
-        <div class="mySlides ">
-            <video src="./video/uchiha.mp4" height="500px" autoplay loop muted> </video>
-        </div>
-
-        
-        <div class="mySlides ">
-            <video src="./video/jjk.mp4" height="500px" autoplay loop muted> </video>
-        </div>
+    <!-- <script src="script.js">
+        function videoUrl(url) {
+            document.getElementById("slider").src = url;
+        }
+    </script> -->
 
 
-        <div class="mySlides ">
-            <video src="./video/domain.mp4" height="500px" autoplay loop muted> </video>
-        </div>
+<!-- ----------------------------------------------------------------------- -->
+
+   
+
+        <!-- <div class="slideshow-container">
 
 
-        <div class="mySlides ">
-            <video src="./video/sukuna1.mp4" height="500px" autoplay loop muted> </video>
-        </div>
+            <div class="mySlides " style="background-color: black;">
+                <div class="sodo"></div>
+            </div>
 
-                
-        <div class="mySlides ">
-            <video src="./video/sukuna.mp4" height="500px" autoplay loop muted> </video>
-        </div>
+            <div class="mySlides ">
+                <video src="./video/sololevelling.mp4" height="500px" loop muted></video>
+            </div>
 
-
-        <div class="mySlides ">
-            <video src="./video/gojo.mp4" height="500px" autoplay loop muted> </video>
-        </div>
+            <div class="mySlides ">
+                <video src="./video/jjk.mp4" height="500px" loop muted> </video>
+            </div>
 
 
-        <a class="prev" onclick="plusSlides(-1)">&#8594;</a>
-        <a class="next" onclick="plusSlides(1)">&#8592;</a>
-
-    </div>
-
+            <div class="mySlides ">
+                <video src="./video/sukuna1.mp4" height="500px" loop muted> </video>
+            </div>
 
 
-    <!-- ----------------------------------------------------------------------- -->
+            <div class="mySlides ">
+                <video src="./video/gojo.mp4" height="500px" loop muted> </video>
+            </div>
 
-    <main id="main">
+            <a class="prev" onclick="plusSlides(-1)">&#8594;</a>
+            <a class="next" onclick="plusSlides(1)">&#8592;</a>
+
+        </div> -->
+  
+        <!-- ----------------------------------------------------------------------- -->
+        <main id="main">
+
         <div class="fix2"></div>
         <div id="fix">
             <div class="phuto">
@@ -130,12 +120,16 @@
                     <div class="c1">
                         <p>I am Manoj Pise , a dedicated Computer Engineering student pursuing my B.E. degree from
                             Savitribai Phule University in Pune. I possess a strong drive to explore new horizons ,
-                            seize opportunities , and gain valuable experiences. Learning is not just a hobby for me ,
-                            it is my passion. Every day, I strive to expand my knowledge and skills to stay ahead in the
+                            seize opportunities , and gain valuable experiences. Learning is not just a hobby for me
+                            ,
+                            it is my passion. Every day, I strive to expand my knowledge and skills to stay ahead in
+                            the
                             ever-evolving tech industry.
                             <br><br>
-                            To work with experienced professionals, gaining technical knowledge and hands-on experience
-                            with new technologies. Seeking opportunities to enhance skills and knowledge for personal
+                            To work with experienced professionals, gaining technical knowledge and hands-on
+                            experience
+                            with new technologies. Seeking opportunities to enhance skills and knowledge for
+                            personal
                             and professional growth.
                         </p>
                     </div>
@@ -339,275 +333,31 @@
         </div>
 
     </main>
+    
+    <!-- -------------------------------------------------------------------- -->
+
+    <section>
+        <video id="slider"  style="background-color: black;" autoplay loop muted>
+
+        </video>
+        <ul class="navigation">
+            <div>
+            <li><img onclick="videoUrl('unknown')" src="./background/DARK.png" height="50px; width:auto;" alt=""></li>
+            <li><img onclick="videoUrl('./video/sololevelling.mp4')" src="./background/solo.png"  height="50px; width:auto;" alt=""></li>
+            <li><img onclick="videoUrl('./video/jjk.mp4')" src="./background/jjk.png"  height="50px; width:auto;" alt=""></li>
+            <li><img onclick="videoUrl('./video/sukuna1.mp4')" src="./background/sukuna.png"  height="50px; width:auto;" alt=""></li>
+            <li><img onclick="videoUrl('./video/gojo.mp4')" src="./background/gojo.png"  height="50px; width:auto;" alt=""></li>
+        </div>
+        </ul>
+    </section>
+
+<!-- -------------------------------------------------------------------- -->
+  
+    <script>
+        function videoUrl(url) {
+            document.getElementById("slider").src = url;
+        }
+    </script>
 </body>
 
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortFolioo</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./img/favicon.png">
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,300|Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
-</head>
-
-<body>
-    <!-- must required javascript -->
-    <!-- <video src="./video/jjk.mp4" height="500px" autoplay loop muted> </video> -->
-    <!-- <video src="./video/sukuna.mp4" height="500px" id="v1" autoplay loop muted> </video>   -->
-    <video src="./video/gojo.mp4" height="500px" id="v1" autoplay loop muted> </video>
-    <!-- <video src="./video/sololevelling.mp4" height="500px" id="v1" autoplay loop muted> </video> -->
-    <main id="main">
-        <div class="fix2"></div>
-        <div id="fix">
-            <div class="phuto">
-                <img src="./img/mj.png" alt="error 404" height="140px" type="image/png" style="border-radius: 18px;
-                       background-color:brown;
-                       margin:10px;     
-                       box-shadow: 1px 1px  20px rgba(237, 237, 237, 0.653);">
-                <h1 class="nam">Manoj Pise</h1>
-                <h2 class="computer">Computer Engineer</h2>
-            </div>
-            <div class="infoline"></div>
-            <div class="info">
-                <nav class="navbar">
-                    <div class="container">
-                        <ul class="contain">
-                            <li class="niv"><a href="#home1">Home</a></li><br>
-                            <li class="niv"><a href="#about1">About</a></li><br>
-                            <li class="niv"><a href="#resume1">Resume</a></li><br>
-                            <li class="niv"><a href="#certification1">Portfolio</a></li><br>
-                            <li class="niv"><a href="#contact1">Contact</a></li><br>
-                        </ul>
-                        <div class="buttonss">
-                            <ul>
-                                <li class="tab"><a href="https://www.instagram.com/manojpisepatil" target="_blank"><img
-                                            src="./img/Instagram_logo.png" alt="I" height="34px"></a></li>
-                                <li class="tab1"><a href="https://www.linkedin.com/in/manojpisepatil/"
-                                        target="_blank"><img src="./img/linkedin.png" alt="L" height="34px"
-                                            style="border:1px solid white ;border-radius: 22px;"></a></li>
-                                <li class="tab2"><a href="https://github.com/manojpisepatil" target="_blank"><img
-                                            src="./img/github.png" alt="G" height="34px"
-                                            style="border:1px solid white ;border-radius: 22px;"></a></li>
-                                <li class="tab3"><a href="https://x.com/manojpisepatil" target="_blank"><img
-                                            src="./img/x.png" alt="t" height="34px"
-                                            style="border:1px solid white ;border-radius: 22px;"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <!-- home section  -->
-        <div id="home1">
-            <div class="home">
-                <div class="din">
-                    <div class="din-u">
-                        <img src="./img/upper.png" alt="flower" type="image/png">
-                    </div>
-                    <div class="name-plate">
-                        <h1 class="mp">Manoj Pise</h1>
-                        <br>
-                        <h4 class="ip">I am Programmer</h4>
-                    </div>
-                    <div class="din-b">
-                        <img src="./img/bottom.png" alt="flower" type="image/png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- about section -->
-        <div id="about1">
-            <div class="about">
-                <div class="din">
-                    <div class="c">
-                        <h1>Career Objective</h1>
-                    </div>
-                    <div class="c1">
-                        <p>I am Manoj Pise , a dedicated Computer Engineering student pursuing my B.E. degree from
-                            Savitribai Phule University in Pune. I possess a strong drive to explore new horizons ,
-                            seize opportunities , and gain valuable experiences. Learning is not just a hobby for me ,
-                            it is my passion. Every day, I strive to expand my knowledge and skills to stay ahead in the
-                            ever-evolving tech industry.
-                            <br><br>
-                            To work with experienced professionals, gaining technical knowledge and hands-on experience
-                            with new technologies. Seeking opportunities to enhance skills and knowledge for personal
-                            and professional growth.
-                        </p>
-                    </div>
-                    <hr style="margin:-13px 33px 0px 40px; opacity:50%;">
-                    <hr style="margin:1px 33px 8px 40px;opacity:50%;">
-                    <div class="career">
-                        <div class="rotate">
-                            <h2>My Skills</h2>
-                        </div>
-                        <!-- <hr style="margin:-17px 690px 0px 7px;height:2px;"> -->
-                        <p>C / C++ || 80%</p>
-                        <div class="bar"></div>
-                        <div class="bar1"></div>
-                        <div class="space"></div>
-                        <p>Python || 50%</p>
-                        <div class="bar"></div>
-                        <div class="bar2"></div>
-                        <div class="space"></div>
-                        <p>MySQL || 80%</p>
-                        <div class="bar"></div>
-                        <div class="bar3"></div>
-                        <div class="space"></div>
-                        <p>JAVA || 50%</p>
-                        <div class="bar"></div>
-                        <div class="bar4"></div>
-                        <div class="space"></div>
-                        <p>HTML5 / CSS3 || 90%</p>
-                        <div class="bar"></div>
-                        <div class="bar5"></div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- resume section  -->
-        <div id="resume1">
-            <div class="resume">
-                <div class="din">
-                    <!-- <input type="button" value="download"> -->
-                    <div class="r">
-                        <div>
-                            <h1>Resume</h1>
-                            <div class="dwn">
-                                <a href="./resume/RESUME.pdf" download="My-Resume"><img
-                                        src="./img/resume.png" height="50px;" alt="resume" type="image/png"></a>
-                            </div>
-                        </div>
-                        <div class="r1">
-                            <ul class="r2">
-                                <h2>_Education_</h2>
-                                <li>SAVITRIBAI PHULE PUNE UNIVERSITY</li>
-                                <p>2021 — 2025</p>
-                                <p>computer Engineering</p><br>
-                                <li>K J COLLEGE OF ENGINEERING AND MANAGEMENT RESEARCH PUNE</li>
-                                <p style="color:rgb(107, 188, 201);filter: drop-shadow(0px 0px 2px rgb(10, 9, 10) );">
-                                    Cumulative GPA: 7.6</p>
-                                <p>2021 — 2025</p>
-                                <p>computer Engineering</p><br>
-                                <ol class="ce">
-                                    <li>Problem Solving</li>
-                                    <li>LeaderShip</li>
-                                    <li>Object Oriented Programming</li>
-                                    <li>Fundamental JAVA</li>
-                                    <li>C/C++</li>
-                                    <li>RDBMS ( MySql )</li>
-                                    <li>HTML5 CSS3 JavaScript / BootStrap</li>
-                                </ol><br>
-                                <li>Janta Junior College , Anjani Kd Ta. Lonar Dist. Buldhana 443302</li>
-                                <p>HIGHER SECONDARY <span
-                                        style="color:rgb(107, 188, 201);filter: drop-shadow(0px 0px 2px rgb(10, 9, 10) );">(
-                                        Percentage: 90% )</span></p>
-                                <p>2021</p><br>
-                                <li>Shri Shivaji High School , Sultanpur Ta. Lonar Dist. Buldhana 443302</li>
-                                <p>SECONDARY SCHOOL <span
-                                        style="color:rgb(107, 188, 201);filter: drop-shadow(0px 0px 2px rgb(10, 9, 10) );">(
-                                        Percentage: 86.80% )</span></p>
-                                <p>2019</p>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- certifications -->
-
-        <div id="certification1">
-            <div class="certification">
-                <div class="din">
-                    <div class="up2">
-                        <ul class="certi">
-                            <li class="cet1"><a href="#" style="text-decoration: none;color:rgb(134, 136, 136);">ALL</a>
-                            </li>
-                            <li class="cet"><a href="#"
-                                    style="text-decoration: none;color:rgb(134, 136, 136);">COURCES</a></li>
-                            <li class="cet"><a href="#"
-                                    style="text-decoration: none;color:rgb(134, 136, 136);">INTERNSHIP</a></li>
-                            <li class="cet"><a href="#"
-                                    style="text-decoration: none;color:rgb(134, 136, 136);">PROJECTS</a></li>
-                            <li class="cet"><a href="#"
-                                    style="text-decoration: none;color:rgb(134, 136, 136);">CERTIFICATIONS</a></li>
-                        </ul>
-                    </div>
-                    <div class="up1">
-                        <h1>PortFolio</h1>
-                        <hr>
-                    </div>
-                    <div class="acjw">
-                        <div class="alll">
-                            <div style="display:flex;">
-                                <div class="z1"><a href="https://lnkd.in/drWbEbMx" target="_blank"><img src="./certification/aws.jpeg" ></a></div>
-                                <div class="z2"><a href="https://drive.google.com/file/d/1n3j4yQzZ4j0fNMx898JMwd77h4SuLZlC/view?usp=sharing" target="_blank"><img src="./certification/course.png" ></a></div>
-                                <div class="z3"><a href="https://olympus1.mygreatlearning.com/course_certificate/QXYGTMDA" target="_blank"><img src="./certification/cpp.jpeg" ></a></div>
-                            </div>
-                            <div style="display:flex;">
-                                <div class="z1"><a href="https://drive.google.com/file/d/1XJhA3qcgXZLmk754mTP9niOo31MiLy3E/view?usp=sharing" target="_blank"><img src="./certification/edunet.png" ></a></div>
-                                <div class="z2"><a href="https://olympus1.mygreatlearning.com/course_certificate/DOXJPXVB" target="_blank"><img src="./certification/html.jpg" ></a></div>
-                                <div class="z3"><a href="https://drive.google.com/file/d/141vTaqhAkdk_f5ZxqnIxXdJAjaM5Cl-e/view?usp=sharing" target="_blank"><img src="./certification/internship.png" ></a></div>
-                            </div>
-                            <div style="display:flex;">
-                                <div class="z1"><a href="https://drive.google.com/file/d/1NuExIypij1OmKqJQ0eXaop14erdQJMrw/view?usp=sharing" target="_blank"><img src="./certification/java.jpg" ></a></div>
-                                <div class="z2"><a href="http://ude.my/UC-3f7d6c2a-907b-424a-9a7b-fb6e2d3269d8" target="_blank"><img src="./certification/javascript.jpg" ></a></div>
-                                <div class="z3"><a href="https://lnkd.in/dzjqBWpC" target="_blank"><img src="./certification/L-java.jpg" ></a></div>
-                            </div>
-                            <div style="display:flex;">
-                                <div class="z1"><a href="https://drive.google.com/file/d/1bQYJnx5J2UkEIim7tfpDIbo0NLGOU0S9/view?usp=sharing" target="_blank"><img src="./certification/M1.png" ></a></div>
-                                <div class="z2"><a href="https://drive.google.com/file/d/14mA1VULe5n_DPfffHPNNUV29SksCvB-B/view?usp=sharing" target="_blank"><img src="./certification/m2.png" ></a></div>
-                                <div class="z3"><a href="https://proceeding.conferenceworld.in/ICIET-2022/45.pdf" target="_blank"><img src="./certification/m3.png" ></a></div>
-                            </div>
-                            <div style="display:flex;">
-                                <div class="z1"><a href="https://www.sololearn.com/certificates/CT-5X7XN1W1" target="_blank"><img src="./certification/python.jpg" ></a></div>
-                                <div class="z2"><a href="https://verify.ifacet.digitalcredentials.in/44752b7e-0bad-4a6c-b998-9a840f856801" target="_blank"><img src="./certification/sql.jpg" ></a></div>
-                                <div class="z3"><a href="https://drive.google.com/file/d/1XwFdjOBHfPzzxWIQUMT6tKkRUl4WnJZm/view?usp=sharing" target="_blank"><img src="./certification/vois.png" ></a></div>
-                            </div>
-                            <div style="display:flex;">
-                                <div class="z1"><a href="https://verify.ifacet.digitalcredentials.in/3d19d161-5a7e-4914-8eaf-5c2eac858dfe" target="_blank"><img src="./certification/wordpress-web-designing.jpg" ></a></div>
-                                <div class="z2"><a href="https://verify.ifacet.digitalcredentials.in/165d6029-a416-4a98-816c-a214162a54cd" target="_blank"><img src="./certification/PYTHOON.png" ></a></div>
-                                <div class="z3"><a href="https://verify.ifacet.digitalcredentials.in/a4b18c6f-cc8b-4726-975b-1b3dca0c1162" target="_blank"><img src="./certification/RDBMS.png" ></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- <div class="contact"></div> -->
-        <div id="contact1">
-            <div class="contact">
-                <div class="din">
-                    <div class="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.17005851687!2d73.6981553041223!3d18.52454504095413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2z4KSq4KWB4KSj4KWHLCDgpK7gpLngpL7gpLDgpL7gpLfgpY3gpJ_gpY3gpLA!5e0!3m2!1smr!2sin!4v1721197561218!5m2!1smr!2sin"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="formm">
-                        <h1>Contact Form</h1>
-                        <form>
-                            <input type="text" name="name" placeholder="Full Name" required><br>
-                            <input type="email" name="email" placeholder="Email" required>
-                        </form>
-                        <div class="formm1" >
-                            <textarea name="message" placeholder="Message" required></textarea>
-                        </div>
-                        <div class="formm2">
-                            <input type="submit" value="Submit">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </main>
-</body>
-
-</html>
->>>>>>> efa7b0050b75549b97f08b955825d4949189cedc

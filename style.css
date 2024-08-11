@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-* {
-    scroll-behavior: smooth;
-}
-
 main {
     display: inline-block;
 }
 
-video {
+/* video {
     position: fixed;
     left: 0;
     top: 0;
@@ -19,7 +14,72 @@ video {
     z-index: -1;
     transition: 1s;
     opacity: 85%;
+} */
+
+
+
+
+
+
+
+section {
+    position: flex;
+    width: 100%;
+    height: 100vh;
 }
+
+section video {
+        position: fixed;
+        left: 0;
+        top: 0;
+        filter: blur(1px);
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        pointer-events: none;
+        z-index: -1;
+        transition: 1s;
+        opacity: 85%;  
+}
+
+section .navigation {
+    display:flex;
+    position:fixed;
+    margin-top:-3500px;
+    left: 1%;
+    z-index: 100;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+section .navigation li{
+    display: top;
+    /* position: fixed; */
+    list-style: none;
+    cursor: pointer;
+    margin: 1px 1px 0px -20px;
+    border-radius: 2px;
+    padding: 3px 3px 0;
+
+    opacity: 0.7;
+    transition: 0.5s;
+    /* border:3px solid yellow; */
+}
+section .navigation li:hover {
+    opacity: 1;
+} 
+section .navigation li img {
+    width: 50px;
+    transition: 0.5s ease;
+}
+
+section .navigation li img:hover {
+    width: 100px;
+} 
+
+/* ------------------------------------------------------ */
+
 
 .error {
     border-radius: 18px;
@@ -709,9 +769,12 @@ video {
 #contact1 {
     height: 100vh;
     width: 100vw;
+    margin-bottom: -100vh;
     /* background-color: green;  */
 }
-
+section .navigation div{
+    margin-top:100vh;
+}
 .map {
     margin: 30px 0px 0px 38px;
     height: 360px;
@@ -808,65 +871,6 @@ video {
     color: white;
 }
 
-
-.mySlides {
-    /* display: ; */
-    background-color: black;
-}
-
-/* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-    cursor: pointer;
-    position: fixed;
-    top: 50%;
-    width: auto;
-    padding: 0px;
-    margin-left: 128px;
-    margin-top: 85px;
-    color: white;
-    filter: drop-shadow(0px 0px 4px rgb(55, 154, 176));
-    background-color: transparent;
-    font-weight: bold;
-    font-size: 40px;
-    transition: 0.6s ease;
-    opacity: 70%;
-    z-index: 5;
-
-}
-
-/* Position the "next button" to the right */
-.next {
-    left: 74px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-    color: red;
-    filter: drop-shadow(5px 1px 5px rgb(224, 4, 4));
-}
-
-.sodo{
-    position: fixed;
-    background-color: rgb(0, 0, 0);
-    color: rgb(44, 39, 39);
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    pointer-events: none;
-}
-=======
 /* Add  Tailwind Css to the Below of code  */
 
 *{
@@ -1621,4 +1625,10 @@ video {
     scale:1.5;
     color:white;
 }
->>>>>>> efa7b0050b75549b97f08b955825d4949189cedc
+* {
+    scroll-behavior: smooth;
+    behavior: sticky;
+}
+
+
+
