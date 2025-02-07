@@ -9,7 +9,7 @@ main {
 } */
 
 
-
+/* 
     .preloader {
       position: fixed;
       width: 100%;
@@ -44,10 +44,10 @@ main {
     }
   
     /* Hide preloader when page loads */
-    .preloader.hidden {
+/*     .preloader.hidden {
       opacity: 0;
       visibility: hidden;
-    }
+    } */
 
 .fix2 {
     position: fixed;
