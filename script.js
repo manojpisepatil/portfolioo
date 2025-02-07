@@ -1,3 +1,11 @@
+  <script>
+    window.addEventListener("load", function () {
+      setTimeout(() => {
+        document.getElementById("preloader").classList.add("hidden");
+      }, 2000); // 2 seconds default visible time
+    });
+  </script>
+
 // let slideIndex = 1;
 // let n=5;
 // showSlides(slideIndex);
