@@ -9,6 +9,7 @@ main {
 } */
 
 
+
     .preloader {
       position: fixed;
       width: 100%;
@@ -22,6 +23,9 @@ main {
       color: white;
       font-size: 2rem;
       font-weight: bold;
+      opacity: 1;
+      visibility: visible;
+      transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
     }
   
     .spinner {
@@ -43,7 +47,6 @@ main {
     .preloader.hidden {
       opacity: 0;
       visibility: hidden;
-      transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
     }
 
 .fix2 {
