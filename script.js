@@ -1,14 +1,8 @@
-    // Display preloader for 3 seconds after page load
-    window.addEventListener("load", function () {
-      setTimeout(() => {
-        document.getElementById("preloader").classList.add("hidden");
-      }, 3000); // Preloader will disappear after 3 seconds
-    });
-    
-    // Ensure the preloader stays for 3 seconds even if the page is loaded earlier
-    setTimeout(() => {
-      document.getElementById("preloader").classList.add("hidden");
-    }, 3000);
+<script>
+  // Hide the preloader after 3 seconds
+  setTimeout(() => {
+    document.getElementById("preloader").classList.add("hidden");
+  }, 3000); // Preloader will disappear after 3 seconds
 
 // let slideIndex = 1;
 // let n=5;
