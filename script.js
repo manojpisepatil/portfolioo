@@ -1,4 +1,3 @@
-<script>
   // Hide the preloader after 3 seconds
   setTimeout(() => {
     document.getElementById("preloader").classList.add("hidden");
