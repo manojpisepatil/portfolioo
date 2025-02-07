@@ -1,4 +1,3 @@
-  <script>
     // Display preloader for 3 seconds after page load
     window.addEventListener("load", function () {
       setTimeout(() => {
@@ -10,7 +9,6 @@
     setTimeout(() => {
       document.getElementById("preloader").classList.add("hidden");
     }, 3000);
-  </script>
 
 // let slideIndex = 1;
 // let n=5;
